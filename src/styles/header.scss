@@ -37,7 +37,7 @@ nav ul li:first-child {
 
 nav ul li a {
   text-decoration: none;
-  color: black;
+  color: #060b35;
   font-size: 12px;
   font-weight: 500;
   line-height: 60px;
@@ -62,5 +62,7 @@ nav ul li a.is-active::after {
 }
 
 nav ul li a:hover {
+  transition: color 5s ease ;
   color: #00acdc;
+
 }
